@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+  }
+
+  a {
+    text-decoration: none;
+    color: red;
+  }
+ 
+  
+  ul {
+    list-style: none;
+ 
+  }
+  
+  /* Header Start */
+header  {
+  height: 100vh;
+  background-color:rgb(196, 219, 48); 
+
+}
+ .navbar {
+  background-color:#000;
+  border-bottom: 3px solid white;
+  position: fixed;
+
+  width:100%;
+  padding: 1.5rem 2rem ;
+
+}
+ #logo{
+  font-weight: 600;
+  font-size: 24px;
+  color: gold;
+}
+ .navbar nav{
+  display: flex;
+  margin:auto;
+  justify-content:space-between;
+  align-items:center;
+  max-width: 1100px;
+
+}
+
+
+ .navbar nav ul{
+  display: flex;
+
+
+}
+ .navbar nav ul a{
+margin:0 15px;
+font-weight: 600;
+
+}
+
+.header-content{
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  max-width: 1100px;
+  margin: auto;
+  height: 100%;
+  align-items: center;
+
+  padding: 5rem 2rem;
+}
+.header-content img{
+width: 350px;
+height: 450px;
+border-radius: 10%;
+
+
+}
+.header-text p{
+  font-size: 24px;
+  font-weight: 500;
+}
+.header-text h1{
+  font-size: 60px;
+  font-weight: 700;
+  color: #08085e;
+}
+/*skills*/
+
+#skills {
+  background: gray;
+  padding: 5rem 2rem;
+}
+
+#skills .title h2 {
+  color: gold;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+#skills .title p {
+  color: #240e0e;
+  font-weight: 500;
+  font-size: 24px;
+}
+#skills .title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+#contact {
+  background: green;
+  padding: 5rem ;
+}
+
+#contact .contact-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+
+form {
+  width: 40%;
+}
+form input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 20px 15px;
+  margin: 20px 0;
+  border: none;
+  background-color: gold;
+}
+#footer {
+  background-color: #383848;
+  text-align: center;
+  color: #fff;
+  padding: 15px 0;
+  font-size: 38 px;
+}
